@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d017d04-e8a5-4947-a3d3-593c5244f3f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/beanfind/ApplicationCotextExtendsFIndTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +68,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationContextSameBeanFindTest.findAllBeanByType">
-    <configuration name="ApplicationContextBasicFindTest.findBeanByName2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApplicationCotextExtendsFIndTest.findBeanByObjectType">
+    <configuration name="ApplicationCotextExtendsFIndTest.findBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
         <pattern>
@@ -77,14 +78,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextBasicFindTest" />
-      <option name="METHOD_NAME" value="findBeanByName2" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationCotextExtendsFIndTest" />
+      <option name="METHOD_NAME" value="findBeanByObjectType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextBasicFindTest.findBeanByNameX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationCotextExtendsFIndTest.findBeanByParentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +94,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextBasicFindTest" />
-      <option name="METHOD_NAME" value="findBeanByNameX" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationCotextExtendsFIndTest" />
+      <option name="METHOD_NAME" value="findBeanByParentType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextSameBeanFindTest.findAllBeanByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationCotextExtendsFIndTest.findBeanByParentTypeBeanName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +110,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextSameBeanFindTest" />
-      <option name="METHOD_NAME" value="findAllBeanByType" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationCotextExtendsFIndTest" />
+      <option name="METHOD_NAME" value="findBeanByParentTypeBeanName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextSameBeanFindTest.findBeanByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationCotextExtendsFIndTest.findBeanByParentTypeDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
         <pattern>
@@ -125,14 +126,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextSameBeanFindTest" />
-      <option name="METHOD_NAME" value="findBeanByName" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationCotextExtendsFIndTest" />
+      <option name="METHOD_NAME" value="findBeanByParentTypeDuplicate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationCotextExtendsFIndTest.findBeanBySubType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
         <pattern>
@@ -141,8 +142,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationContextSameBeanFindTest" />
-      <option name="METHOD_NAME" value="findBeanByTypeDuplicate" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationCotextExtendsFIndTest" />
+      <option name="METHOD_NAME" value="findBeanBySubType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplicationContextSameBeanFindTest.findAllBeanByType" />
-        <item itemvalue="JUnit.ApplicationContextSameBeanFindTest.findBeanByName" />
-        <item itemvalue="JUnit.ApplicationContextSameBeanFindTest.findBeanByTypeDuplicate" />
-        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByNameX" />
-        <item itemvalue="JUnit.ApplicationContextBasicFindTest.findBeanByName2" />
+        <item itemvalue="JUnit.ApplicationCotextExtendsFIndTest.findBeanByObjectType" />
+        <item itemvalue="JUnit.ApplicationCotextExtendsFIndTest.findBeanByParentType" />
+        <item itemvalue="JUnit.ApplicationCotextExtendsFIndTest.findBeanBySubType" />
+        <item itemvalue="JUnit.ApplicationCotextExtendsFIndTest.findBeanByParentTypeBeanName" />
+        <item itemvalue="JUnit.ApplicationCotextExtendsFIndTest.findBeanByParentTypeDuplicate" />
       </list>
     </recent_temporary>
   </component>
