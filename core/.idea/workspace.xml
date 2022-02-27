@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d017d04-e8a5-4947-a3d3-593c5244f3f5" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/StatefulService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/StatefulServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core.core.test.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/ConfigurationSingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/StatefulService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/StatefulService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,24 +83,8 @@
       <recent name="hello.core.SingleTon" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StatefulServiceTest.statefulServiceSingleton">
-    <configuration name="BeanDefinitionTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.beandefinition.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beandefinition" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beandefinition.BeanDefinitionTest" />
-      <option name="METHOD_NAME" value="findApplicationBean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest.pureContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConfigurationSingletonTest.configurationDeep">
+    <configuration name="ConfigurationSingletonTest.configurationDeep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +93,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="hello.core.SingleTon" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.SingleTon.SingletonTest" />
-      <option name="METHOD_NAME" value="pureContainer" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.SingleTon.ConfigurationSingletonTest" />
+      <option name="METHOD_NAME" value="configurationDeep" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationSingletonTest.configurationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.SingleTon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.SingleTon" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.SingleTon.ConfigurationSingletonTest" />
+      <option name="METHOD_NAME" value="configurationTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConfigurationSingletonTest.configurationDeep" />
+        <item itemvalue="JUnit.ConfigurationSingletonTest.configurationTest" />
         <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
         <item itemvalue="JUnit.SingletonTest.singletonContainer" />
         <item itemvalue="JUnit.SingletonTest.singletonServiceTest" />
-        <item itemvalue="JUnit.SingletonTest.pureContainer" />
-        <item itemvalue="JUnit.BeanDefinitionTest.findApplicationBean" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +215,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/StatefulServiceTest.java</url>
+          <line>12</line>
+          <properties class="hello.core.SingleTon.StatefulServiceTest" method="statefulServiceSingleton">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
