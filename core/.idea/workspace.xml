@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d017d04-e8a5-4947-a3d3-593c5244f3f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/SingletonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/SingletonTest.java" afterDir="false" />
+    <list default="true" id="6d017d04-e8a5-4947-a3d3-593c5244f3f5" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/StatefulService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/StatefulServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/core.core.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/SingletonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -65,43 +68,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="JUnit.SingletonTest.singletonServiceTest">
-    <configuration name="ApplicationCotextExtendsFIndTest.findBeanByObjectType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.beanfind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationCotextExtendsFIndTest" />
-      <option name="METHOD_NAME" value="findBeanByObjectType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationCotextExtendsFIndTest.findBeanByParentType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.beanfind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.beanfind" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.beanfind.ApplicationCotextExtendsFIndTest" />
-      <option name="METHOD_NAME" value="findBeanByParentType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.core.SingleTon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.StatefulServiceTest.statefulServiceSingleton">
     <configuration name="BeanDefinitionTest.findApplicationBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
@@ -134,6 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest.singletonContainer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.SingleTon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.SingleTon" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.SingleTon.SingletonTest" />
+      <option name="METHOD_NAME" value="singletonContainer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonTest.singletonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.core.test" />
       <extension name="coverage">
@@ -150,13 +147,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.SingleTon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.SingleTon" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.SingleTon.StatefulServiceTest" />
+      <option name="METHOD_NAME" value="statefulServiceSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
+        <item itemvalue="JUnit.SingletonTest.singletonContainer" />
         <item itemvalue="JUnit.SingletonTest.singletonServiceTest" />
         <item itemvalue="JUnit.SingletonTest.pureContainer" />
         <item itemvalue="JUnit.BeanDefinitionTest.findApplicationBean" />
-        <item itemvalue="JUnit.ApplicationCotextExtendsFIndTest.findBeanByObjectType" />
-        <item itemvalue="JUnit.ApplicationCotextExtendsFIndTest.findBeanByParentType" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +208,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/core/src/test/java/hello/core/SingleTon/SingletonTest.java</url>
-          <line>32</line>
+          <line>34</line>
           <properties class="hello.core.SingleTon.SingletonTest" method="singletonServiceTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
